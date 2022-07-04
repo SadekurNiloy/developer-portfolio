@@ -15,6 +15,7 @@ h3 {
 }
 section {
     display: flex;
+    margin-bottom: 150px;
 }
 .half-width {
     width: 50%;
@@ -37,4 +38,16 @@ section {
 .top-banner {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+.dream-big {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    
+}
+.dream-big p::first-letter {
+    text-transform: capitalize;
+}
+.dream-big p {
+    padding-right: 20%;
 }
