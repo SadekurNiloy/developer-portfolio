@@ -7,13 +7,16 @@ h1 {
     font-size: 50px;
     text-transform: capitalize;
 }
+h2 {
+    font-size: 35px;
+}
 h3 {
     text-transform: capitalize;
 }
 .orange-color {
     color: orange;
 }
-section {
+.flexible-container {
     display: flex;
     margin-bottom: 150px;
 }
@@ -50,4 +53,17 @@ section {
 }
 .dream-big p {
     padding-right: 20%;
+}
+.ex-item {
+    box-shadow: 10px 10px 40px gray;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 10px;
+}
+.experiences-area {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+
 }
